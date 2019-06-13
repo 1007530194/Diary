@@ -25,7 +25,7 @@ book:
 
 html:
 	bundle exec jekyll build
-	touch ../blog/blog2/.nojekyll
+	touch ../blogs/diary/.nojekyll
 
 publish:
 	cd blog && sh commit.sh
